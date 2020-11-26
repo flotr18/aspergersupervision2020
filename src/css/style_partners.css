@@ -1,0 +1,39 @@
+.ourPartners {
+    font-size: 40px;
+    text-align: center;
+}
+.Paragraph {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.partner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foo {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    margin: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+    background: #97dcec;
+}
+
+.orange {
+    background: #fa983a;
+}
+
+.green {
+    background: #78e08f;
+}
+
+.yellow {
+    background: #eef279;
+}

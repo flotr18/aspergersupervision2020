@@ -1,0 +1,66 @@
+.DL {
+    background-color: #EEF279;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+
+    font-size: 17.5px;
+}
+
+.DL:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    height: 55px;
+    width: 55px;
+    background-color: #78E08F;
+}
+
+.navbar {
+    padding: 27px 16px;
+    font-family: gooddog-new, sans-serif;
+    font-size: 20px;
+}
+
+.navbar ul li, .DL {
+    margin-left: 25px;
+}
+
+.green {
+    color: #78E08F !important;
+}
+.orange {
+    color: #FA983A !important;
+}
+.blue {
+    color: #97DCEC !important;
+}
+
+.header {
+    background-image: url("https://nospensees.fr/wp-content/uploads/2016/06/asperger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - (55px + 54px));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.extend {
+    height: 50%;
+}
+
+.header p {
+    width: 40%;
+    margin-right: 50vw;
+}
+
+.header button {
+    border: #000 2px solid;
+    background-color: #fff;
+    padding: 5px 30px;
+}
