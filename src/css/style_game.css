@@ -1,0 +1,13 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#part3{
+    background-image: url("./img/part3background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - (55px + 54px));
+    display: block;
+}
