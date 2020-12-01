@@ -4,7 +4,6 @@ import React from "react";
 
 function Vincent_part_3() {
     return(
-
             <div id="part3">
                 <h2>Alter</h2>
                 <div className="d-flex justify-content-center">

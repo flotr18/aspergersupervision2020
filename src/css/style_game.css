@@ -3,11 +3,45 @@ body, html {
     margin: 0;
 }
 
+h2{
+    font-size: 80px;
+    text-align: center;
+    font-family: gooddog-new;
+}
 #part3{
     background-image: url("./img/part3background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - (55px + 54px));
+    height:calc(100vh - 1px);
     display: block;
+}
+#game-button{
+    margin-top: 400px;
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Green */
+    padding: 20px 100px;
+    font-family: Chinacat;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #game-button{
+        margin-top: 440px;
+        background-color: white;
+        color: black;
+        border: 2px solid black; /* Green */
+        padding: 10px 50px;
+        font-family: Chinacat;
+        font-size: 30px;
+    }
+    #part3{
+        background-image: url("./img/mobilepar3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:calc(100vh - 1px);
+        display: block;
+    }
 }
