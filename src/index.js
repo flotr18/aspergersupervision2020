@@ -13,7 +13,7 @@ import './css/style_syndrome.css';
 
 import Header from './Header';
 import Milo_part_1 from "./Milo_part_1";
-import Elliot_part_2 from "./Eliiot_part_2";
+import Eliott_part_2 from "./Eliott_part_2";
 import Vincent_part_3 from "./Vincent_part_3";
 import Julien_part_4 from "./Julien_part_4";
 import Florent_part_5_contact from "./Florent_part_5_contact";
@@ -23,7 +23,7 @@ ReactDOM.render(
 
       <Header />
       < Milo_part_1 />
-    <Elliot_part_2 />
+    <Eliott_part_2 />
     <Vincent_part_3 />
     <Julien_part_4 />
     <Florent_part_5_contact />
