@@ -10,9 +10,8 @@ function Milo_part_1() {
             </video>
             <div id="videoMessage" className="styling">
                 <div className="extend"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iste animi eligendi aspernatur natus est et
-                obcaecati dignissimos deserunt, facilis maxime voluptate praesentium. Assumenda eaque corrupti quasi eum
-                autem porro!</p>
+                <p>Discover Alter, a serious game in which you will understand the difficulty of someone being affected by the Asperger syndrome. Try to communicate and befriend all the people by making the good choices
+</p>
                 <button>Discover the game</button>
             </div>
         </div>
