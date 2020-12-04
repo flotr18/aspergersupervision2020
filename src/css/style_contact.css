@@ -4,39 +4,12 @@
 }
 
 .form_contact {
-
-    height: 625px;
     background-color: #F9F9F9;
-    border : 2px solid black;
-}
-
-.test {
-    height: 125px;
-    background-color: red;
-}
-
-.test2 {
-    height: 125px;
-    background-color: blue;
+    border: #000000 solid 2px;
 }
 
 .contact_input {
     border: #707070 solid 1px;
     height: 50px;
     border-radius: 38px;
-}
-
-.test3 {
-    height: 125px;
-    background-color: green;
-}
-
-.test4 {
-    height: 250px;
-    background-color: yellow;
-}
-
-.test5 {
-    height: 125px;
-    background-color: black;
 }
