@@ -35,16 +35,18 @@ function Florent_part_5_contact() {
 
                     </div>
                 </div>
-                <div className="row">
-                    <div className="disclaimer mx-auto w-75">
-                        <p className={"h6 text-center"}>DISCLAIMER/MESSAGE</p>
-                    </div>
-                </div>
-
-
             </div>
 
+            <div className={"container-fluid text-center w-75"}>
+                <div className={"row"}>
+                    <div className={"col disclaimer"}>
+                        <p className={"h6 disclaimer-message"}>DISCLAIMER/MESSAGE</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
+
     )
 
 }
