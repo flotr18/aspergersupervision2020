@@ -38,5 +38,34 @@
     line-height: 50px;
 }
 
+input::placeholder {
+    font-family: Ubuntu,sans-serif;
+    color: black;
+}
+
+input {
+    font-family: Ubuntu,sans-serif;
+    padding-left: 20px;
+    color: black;
+}
+
+input:focus, textarea {
+    outline: none ! important;
+}
+
+textarea::placeholder {
+    font-family: Ubuntu,sans-serif;
+    color: black;
+}
+
+
+
+
+textarea {
+    padding-top: 20px;
+    font-family: Ubuntu,sans-serif;
+    padding-left: 20px;
+    color: black;
+}
 
 

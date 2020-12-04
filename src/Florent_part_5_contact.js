@@ -25,7 +25,7 @@ function Florent_part_5_contact() {
                 </div>
                 <div className="row mt-5">
                     <div className="col-12 message">
-                        <input className={"contact_input-message w-75 mt-3"} placeholder={"first name"} />
+                        <textarea className={"contact_input-message w-75 mt-3"} placeholder={"first name"} />
 
                     </div>
                 </div>
