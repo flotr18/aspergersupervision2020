@@ -8,11 +8,11 @@ function Florent_part_5_contact() {
             <div className="container-fluid text-center w-75 form_contact">
 
                 <div className="row mt-3">
-                <div className="col-6 firstname">
+                <div className="col-6">
                     <input className={"contact_input w-50 mt-5"} placeholder={"first name"} />
 
                 </div>
-                <div className="col-6 lastname">
+                <div className="col-6">
                     <input className={"contact_input w-50 mt-5"} placeholder={"first name"} />
 
                 </div>
@@ -25,23 +25,25 @@ function Florent_part_5_contact() {
                 </div>
                 <div className="row mt-5">
                     <div className="col-12 message">
-                        <input className={"contact_input w-75 mt-3"} placeholder={"first name"} />
+                        <input className={"contact_input-message w-75 mt-3"} placeholder={"first name"} />
 
                     </div>
                 </div>
                 <div className="row mt-5">
                     <div className="col-12 submit">
-                        <input className={"contact_input w-75 mt-3"} placeholder={"first name"} />
+                        <button className={"submit-button w-25"}>SEND</button>
 
                     </div>
                 </div>
-                <div className="row mt-5">
-                    <div className="col-12 disclaimer">
-
+                <div className="row">
+                    <div className="disclaimer mx-auto w-75">
+                        <p className={"h6 text-center"}>DISCLAIMER/MESSAGE</p>
                     </div>
                 </div>
+
 
             </div>
+
         </div>
     )
 

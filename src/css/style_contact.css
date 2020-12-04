@@ -8,8 +8,29 @@
     border: #000000 solid 2px;
 }
 
-.contact_input {
+.contact_input  {
     border: #707070 solid 1px;
     height: 50px;
     border-radius: 38px;
 }
+
+.contact_input-message  {
+    border: #707070 solid 1px;
+    height: 200px;
+    border-radius: 38px;
+}
+
+.submit-button {
+    border: #707070 solid 1px;
+    height: 50px;
+    border-radius: 38px;
+}
+.disclaimer {
+    border: #000000 solid 2px;
+    height: 50px;
+    vertical-align: 50px;
+
+}
+
+
+
