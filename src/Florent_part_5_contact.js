@@ -1,19 +1,17 @@
-import React, {Component} from "react";
-import { Link } from 'react-router-dom';
-import axios from 'axios';
+import React, { Component } from "react";
+import axios from "axios";
 
 
 
 class Florent_part_5_contact extends Component {
-
     constructor(props) {
         super(props);
         // the form fields are stored in a state
         this.state = {
-            firstname: '',
-            lastname: '',
-            mail: '',
-            message: ''
+            firstname: "",
+            lastname: "",
+            mail: "",
+            message: "",
         };
 
         //this binding is necessary to make `this` work in the callback
@@ -28,14 +26,9 @@ class Florent_part_5_contact extends Component {
         const name = event.target.name;
         const value = event.target.value;
 
-        console.log(value);
-
-        this.setState(
-
-            {
-                [name]: value,
-
-            });
+        this.setState({
+            [name]: value,
+        });
     }
 
     handleSubmit(event) {
@@ -43,52 +36,75 @@ class Florent_part_5_contact extends Component {
         event.preventDefault();
 
         //use axios to send a POST request to the server which includes the state information for the new user to be created
-        axios.post('/', this.state)
+
+        axios
+            .post("http://localhost:5000/", this.state)
             //on success go to home
-            .then(res => this.props.history.push('/'))
-            .catch(error => {
+            .then((res) => this.props.history.push("/"))
+            .catch((error) => {
                 console.log(error);
             });
     }
 
-    render(){
+    render() {
         return (
             <div>
                 <p className="form_title h1 text-center">CONTACT US</p>
-                <form>
-
-
-                <div className="container-fluid text-center w-75 form_contact">
-                    <div className="row mt-3">
-                        <div className="col-6">
-                            <input className={"contact_input w-50 mt-5"} placeholder={"firstname"} name={"firstname"} value={this.state.firstname} onChange={this.handleChange} />
-
+                <form onSubmit={this.handleSubmit}>
+                    <div className="container-fluid text-center w-75 form_contact">
+                        <div className="row mt-3">
+                            <div className="col-6">
+                                <input
+                                    className={"contact_input w-50 mt-5"}
+                                    placeholder={"firstname"}
+                                    name={"firstname"}
+                                    value={this.state.firstname}
+                                    onChange={this.handleChange}
+                                />
+                            </div>
+                            <div className="col-6">
+                                <input
+                                    className={"contact_input w-50 mt-5"}
+                                    placeholder={"lastname"}
+                                    name={"lastname"}
+                                    value={this.state.lastname}
+                                    onChange={this.handleChange}
+                                />
+                            </div>
                         </div>
-                        <div className="col-6">
-                            <input className={"contact_input w-50 mt-5"} placeholder={"lastname"}  name={"lastname"} value={this.state.lastname} onChange={this.handleChange}/>
 
+                        <div className="row mt-5">
+                            <div className="col-12 email">
+                                <input
+                                    className={"contact_input w-75 mt-3"}
+                                    placeholder={"Email"}
+                                    name={"mail"}
+                                    value={this.state.mail}
+                                    onChange={this.handleChange}
+                                />
+                            </div>
+                        </div>
+                        <div className="row mt-5">
+                            <div className="col-12 message">
+                <textarea
+                    className={"contact_input-message w-75 mt-3"}
+                    placeholder={"Message"}
+                    name={"message"}
+                    value={this.state.message}
+                    onChange={this.handleChange}
+                />
+                            </div>
+                        </div>
+                        <div className="row mt-5">
+                            <div className="col-12 submit">
+                                <input
+                                    className="submit-button w-25"
+                                    type="submit"
+                                    value="Submit"
+                                />
+                            </div>
                         </div>
                     </div>
-
-                    <div className="row mt-5">
-                        <div className="col-12 email">
-                            <input className={"contact_input w-75 mt-3"} placeholder={"Email"} name={"mail"} value={this.state.mail} onChange={this.handleChange}/>
-
-                        </div>
-                    </div>
-                    <div className="row mt-5">
-                        <div className="col-12 message">
-                            <textarea className={"contact_input-message w-75 mt-3"} placeholder={"Message"}  name={"message"} value={this.state.message} onChange={this.handleChange}/>
-
-                        </div>
-                    </div>
-                    <div className="row mt-5">
-                        <div className="col-12 submit">
-                            <input className="submit-button w-25" type="submit" value="Submit" />
-
-                        </div>
-                    </div>
-                </div>
                 </form>
 
                 <div className={"container-fluid text-center w-75"}>
@@ -96,20 +112,11 @@ class Florent_part_5_contact extends Component {
                         <div className={"col disclaimer"}>
                             <p className={"h6 disclaimer-message"}>DISCLAIMER/MESSAGE</p>
                         </div>
-
                     </div>
                 </div>
-
-
-
             </div>
-
-        )
-
+        );
     }
-
-
-
 }
 
-export default Florent_part_5_contact;
+export default Florent_part_5_contact ;
