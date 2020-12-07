@@ -3,7 +3,6 @@ const MongoClient = require("mongodb").MongoClient;
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const server = express();
-// the value for dbname should match your database name
 const dbname = "asperger";
 const PORT = process.env.PORT || 5000;
 
