@@ -1,12 +1,13 @@
 
 
-## Launch the project
+## Install dependencies
 
-### `npm install`
-
-### `npm run dev`
 
 ```bash
 npm install
+```
+## Launch app
+
+```bash
 npm run dev
 ```
