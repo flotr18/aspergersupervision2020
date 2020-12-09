@@ -10,18 +10,18 @@
   margin-bottom: 30px;
 }
 
-p {
+#Eliott p {
     text-align: center ;
 }
 
 @media screen and (min-width: 601px) {
-  body {
+  #Eliott {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  #Eliott {
     font-size: 8px;
   }
 }
