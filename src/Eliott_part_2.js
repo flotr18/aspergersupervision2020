@@ -3,7 +3,7 @@ import './css/style_block.css'
 
 function Eliott_part_2() {
     return (
-        <div id="Eliot">
+        <div id="Eliott">
             <h1 className="text-center"><font face="GoodDog New">A new way to learn about the syndrome</font></h1>
 
             <div className="block">
