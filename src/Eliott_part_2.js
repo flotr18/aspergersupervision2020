@@ -12,7 +12,7 @@ function Eliott_part_2() {
 
                 <div className="row">
                     <div className="col-6 img1">
-                        <img className="color-block-a" src={block1}></img>
+                        <img className="color-block-a img-fluid" src={block1}></img>
                     </div>
                     <div className="col-6">
                         <p className="p1">Asperger syndrome (AS), also known as Asperger's, is a neurodevelopmental disorder characterized by significant difficulties in social interaction and nonverbal communication, 
@@ -36,7 +36,7 @@ function Eliott_part_2() {
                         <br />writing and arithmetic and intensify the curriculum.)</p>
                     </div>
                     <div className="col-6 img2">
-                        <img className="color-block-b" src={block2}></img>
+                        <img className="color-block-b img-fluid" src={block2}></img>
                     </div>
                 </div>
 
