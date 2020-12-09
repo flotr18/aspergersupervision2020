@@ -10,39 +10,8 @@
   margin-bottom: 30px;
 }
 
-.color-block-a {
-  display: block;
-  width: 870px;
-  /*height: 500px; */
-  margin-left: 22%;
-}
-
-.color-block-b {
-  display: block;
-  width: 870px;
-  /* height: 500px; */
-  margin-left: 10%;
-}
-
-.col-6 {
-  max-width: 100%;
-}
-
-
 p {
-    text-align: center !important ;
-    max-width: 65%;
-    margin: auto;
-}
-
-.p1 {
-    margin-left: 12% ;
-    padding-top: 5%;
-}
-
-.p2 {
-    margin-right: 12% ;
-    padding-top: 5%;
+    text-align: center ;
 }
 
 @media screen and (min-width: 601px) {
