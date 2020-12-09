@@ -1,3 +1,7 @@
+.text-center {
+  margin-top: 75px;
+}
+
 .block {
   justify-content: space-between;
   margin-bottom: 50px;
@@ -9,26 +13,25 @@
 .color-block-a {
   display: block;
   width: 870px;
-  height: 445px;
-  float: right;
-  background-color: #78e08f;
+  height: 500px;
+  margin-left: 22%;
 }
 
 .color-block-b {
   display: block;
   width: 870px;
-  height: 445px;
-  float: left;
-  background-color: #fa983a;
+  height: 500px;
+  margin-left: 10%;
 }
 
 .col-6 {
   max-width: 100%;
 }
 
+
 p {
     text-align: center !important ;
-    max-width: 50%;
+    max-width: 65%;
     margin: auto;
 }
 
