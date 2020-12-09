@@ -97,7 +97,7 @@ class Florent_part_5_contact extends Component {
                             </div>
                         </div>
                     </div>
-                </form>
+                </form> <br />
 
                 
             </div>
