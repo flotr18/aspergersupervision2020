@@ -1,5 +1,7 @@
 import "./css/style_partners.css";
 import React from "react";
+import block1 from "./css/img/ASA.png";
+import block2 from "./css/img/Skid.png";
 
 function Julien_part_4() {
   return (
@@ -13,11 +15,14 @@ function Julien_part_4() {
       </p>
       <div className="container">
         <div className="row">
-          <div className="col-3 foo blue"></div>
-          <div className="col-3 foo orange"></div>
-          <div className="col-3 foo green"></div>
-          <div className="col-3 foo yellow"></div>
+          <img className="col-6 foo" src={block1}></img>
+          <img className="col-6 foo" src={block2}></img>
         </div>
+        <p className="Paragraph">
+          We would like to express a special thanks to Autism Society and Aspire
+          who accompanied us in this project and provided us all what we needed
+          to reach the finality of this serious game.
+        </p>
       </div>
     </div>
   );

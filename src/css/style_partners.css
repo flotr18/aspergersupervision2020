@@ -1,12 +1,15 @@
 .ourPartners {
+  font-family: gooddog-new;
+  margin-top: 2%;
   font-size: 40px;
   text-align: center;
 }
 .Paragraph {
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 2%;
 }
 
 .partner {
@@ -16,24 +19,7 @@
 
 .foo {
   display: row;
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   margin: auto auto;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.blue {
-  background: #97dcec;
-}
-
-.orange {
-  background: #fa983a;
-}
-
-.green {
-  background: #78e08f;
-}
-
-.yellow {
-  background: #eef279;
 }
