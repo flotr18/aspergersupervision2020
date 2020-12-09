@@ -13,6 +13,7 @@ function Milo_part_1() {
                 <p>Discover Alter, a serious game in which you will understand the difficulty of someone being affected by the Asperger syndrome. Try to communicate and befriend all the people by making the good choices
 </p>
                 <button>Discover the game</button>
+                
             </div>
         </div>
     )

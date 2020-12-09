@@ -40,7 +40,7 @@ class Florent_part_5_contact extends Component {
 
     render() {
         return (
-            <div>
+            <div id="Florent">
                 <p className="form_title h1 text-center">CONTACT US</p>
                 <form onSubmit={this.handleSubmit}>
                     <div className="container-fluid text-center w-75 form_contact">
