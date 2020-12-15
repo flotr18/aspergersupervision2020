@@ -37,7 +37,9 @@ class Florent_part_5_contact extends Component {
                 console.log(error);
             });
 
-        alert('Thank you for your message, we will answer you as soon as possible')
+
+
+
     }
 
     render() {
@@ -101,7 +103,7 @@ class Florent_part_5_contact extends Component {
                     </div>
                 </form> <br />
 
-                
+
             </div>
         );
     }
