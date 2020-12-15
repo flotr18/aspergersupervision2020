@@ -1,12 +1,12 @@
 {
   "name": "mern-full-stack",
   "version": "1.0.0",
-  "description": "MERN full stack demo",
+  "description": "asperger project supervision",
   "main": "src/server/index.js",
   "scripts": {
     "build": "react-scripts build"
   },
-  "author": "Erika Volodko",
+  "author": "asperger project supervision",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
