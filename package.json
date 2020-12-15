@@ -20,6 +20,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "dev": "concurrently \"npm run start\" \"node src/server/index.js\"",
     "build": "react-scripts build",
@@ -46,6 +48,8 @@
   },
   "devDependencies": {
     "axios": "^0.21.0",
-    "eslint": "^7.15.0"
-  }
+    "eslint": "^7.15.0",
+    "gh-pages": "^3.1.0"
+  },
+  "homepage": "http://flotr18.github.io/aspergersupervision2020"
 }

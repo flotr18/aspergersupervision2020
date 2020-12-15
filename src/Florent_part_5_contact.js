@@ -26,6 +26,8 @@ class Florent_part_5_contact extends Component {
         });
     }
 
+
+
     handleSubmit(event) {
         event.preventDefault();
 
