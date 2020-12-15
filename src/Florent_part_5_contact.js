@@ -105,13 +105,7 @@ class Florent_part_5_contact extends Component {
                     </div>
                 </form>
 
-                <div className={"container-fluid text-center w-75"}>
-                    <div className={"row"}>
-                        <div className={"col disclaimer"}>
-                            <p className={"h6 disclaimer-message"}>DISCLAIMER/MESSAGE</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         );
     }
