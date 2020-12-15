@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class App extends Component {
+class Florent_part_5_contact extends Component {
     constructor(props) {
         super(props);
         // the form fields are stored in a state
