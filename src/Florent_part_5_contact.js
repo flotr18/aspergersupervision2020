@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-
-
-class Florent_part_5_contact extends Component {
+class App extends Component {
     constructor(props) {
         super(props);
+        // the form fields are stored in a state
         this.state = {
             firstname: "",
             lastname: "",
@@ -13,11 +12,15 @@ class Florent_part_5_contact extends Component {
             message: "",
         };
 
+        //this binding is necessary to make `this` work in the callback
+        //generally, if you refer to a method without () after it, such as onClick={this.handleClick}, you should bind that method
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    //once the input boxes are changed, update the state to match the value
     handleChange(event) {
+        //name of the input boxes must match the property names in the state
         const name = event.target.name;
         const value = event.target.value;
 
@@ -26,38 +29,19 @@ class Florent_part_5_contact extends Component {
         });
     }
 
-
-
     handleSubmit(event) {
+        //preventDefault() is called on the event when it occurs to prevent a browser reload/refresh
         event.preventDefault();
 
+        //use axios to send a POST request to the server which includes the state information for the new user to be created
 
-        if (document.location.hostname === 'localhost' || document.location.hostname === "127.0.0.1"){
-            axios
-                .post("http://localhost:5000", this.state)
-
-                .then((res) => this.props.history.push("/"))
-                .catch((error) => {
-                    console.log(error);
-                });
-        }
-
-        else {
-            axios
-                .post("https://asperger.herokuapp.com/", this.state)
-
-                .then((res) => this.props.history.push("/"))
-                .catch((error) => {
-                    console.log(error);
-                });
-        }
-
-
-
-
-
-
-
+        axios
+            .post("/", this.state)
+            //on success go to home
+            .then((res) => this.props.history.push("/"))
+            .catch((error) => {
+                console.log(error);
+            });
     }
 
     render() {
