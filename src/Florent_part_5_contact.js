@@ -30,12 +30,28 @@ class Florent_part_5_contact extends Component {
         event.preventDefault();
 
 
-        axios
-            .post("https://asperger.herokuapp.com", this.state)
-            .then((res) => this.props.history.push("/"))
-            .catch((error) => {
-                console.log(error);
-            });
+        if (document.location.hostname === 'localhost' || document.location.hostname === "127.0.0.1"){
+            axios
+                .post("http://localhost:5000", this.state)
+
+                .then((res) => this.props.history.push("/"))
+                .catch((error) => {
+                    console.log(error);
+                });
+        }
+
+        else {
+            axios
+                .post("https://asperger.herokuapp.com/", this.state)
+
+                .then((res) => this.props.history.push("/"))
+                .catch((error) => {
+                    console.log(error);
+                });
+        }
+
+
+
 
 
 
