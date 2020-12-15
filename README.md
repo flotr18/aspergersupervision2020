@@ -9,7 +9,7 @@ npm install
 ## Launch app
 
 ```bash
-npm run dev
+npm run build
 ```
 ## Heroku Link 
 
