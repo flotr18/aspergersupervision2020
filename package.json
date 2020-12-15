@@ -18,11 +18,15 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "dev": "concurrently \"npm run start\" \"node src/server/index.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "10.16.0"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +49,6 @@
   "devDependencies": {
     "axios": "^0.21.0",
     "eslint": "^7.15.0"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
