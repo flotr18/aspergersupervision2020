@@ -36,6 +36,8 @@ class Florent_part_5_contact extends Component {
             .catch((error) => {
                 console.log(error);
             });
+
+        alert('Thank you for your message, we will answer you as soon as possible')
     }
 
     render() {

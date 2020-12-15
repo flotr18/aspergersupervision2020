@@ -19,9 +19,10 @@ import Eliott_part_2 from "./Eliott_part_2";
 import Vincent_part_3 from "./Vincent_part_3";
 import Julien_part_4 from "./Julien_part_4";
 import Florent_part_5_contact from "./Florent_part_5_contact";
+import Router from "react-router-dom/es/Router";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router basename={process.env.PUBLIC_URL}>>
 
       <Header />
       < Milo_part_1 />
@@ -34,7 +35,7 @@ ReactDOM.render(
 
 
 
-  </React.StrictMode>,
+      </Router>,
   document.getElementById('root')
 );
 
