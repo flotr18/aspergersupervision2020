@@ -35,13 +35,28 @@ class Florent_part_5_contact extends Component {
 
         //use axios to send a POST request to the server which includes the state information for the new user to be created
 
-        axios
-            .post("/", this.state)
-            //on success go to home
-            .then((res) => this.props.history.push("/"))
-            .catch((error) => {
-                console.log(error);
-            });
+        if (document.location === "localhost" || document.location === "127.0.0.1"){
+            axios
+                .post("http://localhost:5000", this.state)
+                //on success go to home
+                .then((res) => this.props.history.push("/"))
+                .catch((error) => {
+                    console.log(error);
+                });
+
+        }
+
+        else {
+            axios
+                .post("/", this.state)
+                //on success go to home
+                .then((res) => this.props.history.push("/"))
+                .catch((error) => {
+                    console.log(error);
+                });
+        }
+
+
     }
 
     render() {
@@ -105,7 +120,7 @@ class Florent_part_5_contact extends Component {
                     </div>
                 </form>
 
-                
+
             </div>
         );
     }
