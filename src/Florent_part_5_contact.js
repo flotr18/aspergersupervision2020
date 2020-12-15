@@ -37,6 +37,8 @@ class Florent_part_5_contact extends Component {
                     console.log(error);
                 });
 
+            alert('Form Submitted ! ');
+
         }
 
         else {
@@ -46,6 +48,8 @@ class Florent_part_5_contact extends Component {
                 .catch((error) => {
                     console.log(error);
                 });
+
+            alert('Form Submitted ! ')
 
         }
 
