@@ -4,7 +4,8 @@
   "description": "asperger project supervision",
   "main": "src/server/index.js",
   "scripts": {
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "start": "react-scripts start"
   },
   "author": "asperger project supervision",
   "license": "ISC",
