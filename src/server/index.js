@@ -19,8 +19,8 @@ MongoClient.connect(dbroute, { useUnifiedTopology: true }, (err, client) => {
     if (err) throw err;
 
     db = client.db(dbname);
-    server.listen(PORT, () => console.log(`Listening on port ${PORT}!`));
-    console.log("Connected to mongo!");
+    server.listen(PORT, () => console.log(`Listening at http://localhost:${PORT}`));
+    console.log("Connected to mongoDB!");
 });
 
 server.use(bodyParser.urlencoded({ extended: false }));
