@@ -6,10 +6,10 @@
 ```bash
 npm install
 ```
-## Launch app
+## Locally Launch app 
 
 ```bash
-npm run build
+npm run dev
 ```
 ## Heroku Link 
 
