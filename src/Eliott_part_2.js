@@ -5,7 +5,7 @@ import block2 from "./css/img/img-block-2.png";
 
 function Eliott_part_2() {
     return (
-        <div id="Eliott">
+        <div id="Syndrome">
             <h1 className="text-center"><font face="GoodDog New">A new way to learn about the syndrome</font></h1>
 
             <div className="block container-fluid">

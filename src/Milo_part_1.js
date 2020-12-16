@@ -10,7 +10,7 @@ function Milo_part_1() {
             <div id="imgMessage" className="styling">
                 <p>Discover Alter, a serious game in which you will understand the difficulty of someone being affected by the Asperger syndrome. Try to communicate and befriend all the people by making the good choices
 </p>
-                <button>Discover the game</button>
+                <button><a href="#Game">Discover the game</a></button>
                 
             </div>
         </div>
