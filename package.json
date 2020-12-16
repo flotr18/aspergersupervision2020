@@ -4,7 +4,6 @@
   "description": "BAP Dorset Team 3 JQ FT VZ ED ML",
   "main": "src/server/index.js",
   "scripts": {
-
     "dev": "react-scripts build && node src/server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

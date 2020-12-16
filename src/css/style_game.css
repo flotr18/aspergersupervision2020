@@ -26,6 +26,12 @@ h2{
     font-family: Chinacat;
     font-size: 30px;
 }
+#game-button a{
+    text-decoration: none;
+    color:black;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     #game-button{

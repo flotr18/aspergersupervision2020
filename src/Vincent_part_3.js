@@ -6,10 +6,9 @@ function Vincent_part_3() {
     return(
         <div>
             <h2>Alter</h2>
-            <div id="Game">
+            <div id="part3">
                 <div className="d-flex justify-content-center">
-                    <button id="game-button"><a href={"https://wiloux.itch.io/alter"}>Try the game</a></button>
-                    <p>Password: Alter</p>
+                        <button id="game-button"><a href={"https://wiloux.itch.io/alter"}>Try the game(Password: Alter)</a></button>
                 </div>
             </div>
         </div>
