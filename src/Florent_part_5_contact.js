@@ -67,7 +67,7 @@ class Florent_part_5_contact extends Component {
             <div id="Contact">
                 <p className="form_title h1 text-center">CONTACT US</p>
                 <form onSubmit={this.handleSubmit}>
-                    <div className="container-fluid text-center w-75 form_contact mb-5">
+                    <div className="container-fluid text-center w-75 form_contact">
                         <div className="row mt-3">
                             <div className="col-6">
                                 <input
@@ -123,8 +123,15 @@ class Florent_part_5_contact extends Component {
                     </div>
                 </form>
 
+            <div className={"container-fluid"}>
+                <div className={"row"}>
+                    <div className={"col-12 empty"}>
 
+                    </div>
+                </div>
             </div>
+            </div>
+
         );
     }
 }
